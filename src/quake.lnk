@@ -1,0 +1,83 @@
+g:\quake\cd_fmt.obj
+g:\quake\chase.obj
+g:\quake\cl_demo.obj
+g:\quake\cl_input.obj
+g:\quake\cl_main.obj
+g:\quake\cl_parse.obj
+g:\quake\cl_tent.obj
+g:\quake\cmd.obj
+g:\quake\common.obj
+g:\quake\console.obj
+g:\quake\crc.obj
+g:\quake\cvar.obj
+g:\quake\d_edge.obj
+g:\quake\d_fill.obj
+g:\quake\d_init.obj
+g:\quake\d_modech.obj
+g:\quake\d_part.obj
+g:\quake\d_polyse.obj
+g:\quake\d_scan.obj
+g:\quake\d_sky.obj
+g:\quake\d_sprite.obj
+g:\quake\d_surf.obj
+g:\quake\d_vars.obj
+g:\quake\d_zpoint.obj
+g:\quake\draw.obj
+g:\quake\host.obj
+g:\quake\host_cmd.obj
+g:\quake\in_fmt.obj
+g:\quake\keys.obj
+g:\quake\mathlib.obj
+g:\quake\menu.obj
+g:\quake\model.obj
+g:\quake\net_fmt.obj
+g:\quake\net_loop.obj
+g:\quake\net_main.obj
+g:\quake\net_vcr.obj
+g:\quake\nonintel.obj
+g:\quake\pr_cmds.obj
+g:\quake\pr_edict.obj
+g:\quake\pr_exec.obj
+g:\quake\r_alias.obj
+g:\quake\r_aclip.obj
+g:\quake\r_bsp.obj
+g:\quake\r_draw.obj
+g:\quake\r_edge.obj
+g:\quake\r_efrag.obj
+g:\quake\r_light.obj
+g:\quake\r_main.obj
+g:\quake\r_misc.obj
+g:\quake\r_part.obj
+g:\quake\r_sky.obj
+g:\quake\r_sprite.obj
+g:\quake\r_surf.obj
+g:\quake\r_vars.obj
+g:\quake\sbar.obj
+g:\quake\screen.obj
+g:\quake\snd_dma.obj
+g:\quake\snd_fmt.obj
+g:\quake\snd_mem.obj
+g:\quake\snd_mix.obj
+g:\quake\sv_main.obj
+g:\quake\sv_move.obj
+g:\quake\sv_phys.obj
+g:\quake\sv_user.obj
+g:\quake\sys_fmt.obj
+g:\quake\vid_fmt.obj
+g:\quake\view.obj
+g:\quake\wad.obj
+g:\quake\world.obj
+g:\quake\zone.obj
+
+-lib pdrv16
+-lib d:\hc386\small\cdrfrb
+-lib d:\hc386\small\fmcfrb
+-lib d:\hc386\small\snd
+-lib d:\hc386\small\tbios
+-lib d:\hc386\small\hcc
+-lib d:\hc386\small\na
+-TWOCASE
+-stack 262144
+-80386
+-exe quake.exp
+
