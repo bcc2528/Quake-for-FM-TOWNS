@@ -72,6 +72,7 @@ g:\quake\zone.obj
 -lib pdrv16
 -lib d:\hc386\small\cdrfrb
 -lib d:\hc386\small\fmcfrb
+-lib d:\hc386\small\his
 -lib d:\hc386\small\snd
 -lib d:\hc386\small\tbios
 -lib d:\hc386\small\hcc
@@ -80,4 +81,3 @@ g:\quake\zone.obj
 -stack 262144
 -80386
 -exe quake.exp
-
