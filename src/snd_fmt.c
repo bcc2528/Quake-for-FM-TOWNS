@@ -31,6 +31,7 @@ FM TOWNS High res PCM SUPPORT
 */
 
 static int pdrvInitFlag=0;
+static int sndPos=0;
 unsigned char *pcm_buffer=0;
 unsigned char *sndPtr;
 
@@ -43,6 +44,7 @@ static void *loadpcm(int length,void *pcmBuf)
 	char *sndBuf = (char *)pcmBuf;
 	int length2 = length*2;
 	_move(sndPtr,sndBuf,length2);
+	sndPos = sndPtr - pcm_buffer;
 	sndPtr+=length2;
 	if(sndPtr >= (pcm_buffer + (length2 * 4))) sndPtr = pcm_buffer;
 	return sndBuf;
@@ -132,8 +134,7 @@ int SNDDMA_GetDMAPos(void)
 {
 	if(pdrvInitFlag)
 	{
-		int pos = sndPtr - pcm_buffer;
-		shm->samplepos = pos;
+		shm->samplepos = sndPos;
 		return shm->samplepos;
 	}
 
